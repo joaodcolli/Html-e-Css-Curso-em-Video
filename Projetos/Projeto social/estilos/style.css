@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+main {
+    height: 100vh;
+    position: relative;
+    background: url('../pacote-d013/imagens/fundo-madeira.jpg') no-repeat top center;
+    background-size: cover; 
+/* 'top center' é usado para centralizar a imagem em relação ao topo, já o 'backround-size: cover;' é usado para cobrir a tela inteira com a imagem. */
+}
+
+
+section#telefone{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+/* o 'position' e 'top' e 'left' foram usados para alinhar a imagem à 50% do topo e da esquerda em relação a margem, porém ficou centralizado a ponta da imagem, para deixar o centro da imagem centralizado, foi preciso usar 'tranform: translate' para ajustar o centro da imagem e a ponta da imagem em relação a margem. */
+ 50   height: 627px;
+    width: 311px;
+    background: url('../pacote-d013/imagens/frame-iphone.png') no-repeat;
+}
+
+iframe#tela{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 267px;
+    height: 471px;
+}   
+
+section#redes-sociais img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 25%;
+    box-shadow: 2px 2px 5px black;
+    box-sizing: border-box;
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid white;
+    transition: border .7s;
+}
