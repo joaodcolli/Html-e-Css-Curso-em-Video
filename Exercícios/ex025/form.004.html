@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário tel e email</title>
+</head>
+<body>
+    <form action="form.php" method="get">
+        <fieldset>
+            <legend>Teste formulário</legend>
+            <p>
+                <label for="iname">Nome</label>
+                <input type="text" name="iname" id="iname" autocomplete="off" minlength="5" maxlength="20" required>
+            </p>
+            <p>
+                <label for="iemail">E-mail:</label>
+                <input type="email" name="iemail" id="iemail" autocomplete="on" requeired>
+            </p>
+            <p>
+                <label for="itel">Telefone:</label>
+                <input type="tel" name="itel" id="itel" required>
+            </p>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>

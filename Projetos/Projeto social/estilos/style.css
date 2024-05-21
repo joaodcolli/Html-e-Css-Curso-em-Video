@@ -28,7 +28,7 @@ section#telefone{
     left: 50%;
     transform: translate(-50%, -50%);
 /* o 'position' e 'top' e 'left' foram usados para alinhar a imagem à 50% do topo e da esquerda em relação a margem, porém ficou centralizado a ponta da imagem, para deixar o centro da imagem centralizado, foi preciso usar 'tranform: translate' para ajustar o centro da imagem e a ponta da imagem em relação a margem. */
- 50   height: 627px;
+    height: 627px;
     width: 311px;
     background: url('../pacote-d013/imagens/frame-iphone.png') no-repeat;
 }
