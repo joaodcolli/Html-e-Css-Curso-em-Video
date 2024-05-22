@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox e Radio em Formulários</title>
+</head>
+<body>
+    <h1>Checkbox e Radio</h1>
+    <form action="form.php" method="get">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="sexmas" value="M"><label for="sexmas">Masculino</label>
+            <br>
+            <input type="radio" name="sexo" id="sexfem" value="F"><label for="sexfem">Feminino</label>
+        </fieldset>
+        <fieldset>
+            <legend>Esporte favorito</legend>
+            <input type="checkbox" name="fut" id="ifut"><label for="ifut">Futebol</label> <br>
+            <input type="checkbox" name="bas" id="ibas"><label for="ibas">Basquete</label> <br>
+            <input type="checkbox" name="vol" id="ivol"><label for="ivol">Vôlei</label> <br>
+            <input type="checkbox" name="nat" id="inat"><label for="inat">Natação</label> <br>
+        </fieldset>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+
+</body>
+</html>
