@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    background-color: #233cff;
+    width: 100vw;
+    height: 100vh
+    
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: contain; /* o contain fará a imagem ficar inteira ao centro da tela */
+}
+
+h1{
+    color: lightgrey;
+    text-shadow: 2px 2px 0px #111f84;
+}
